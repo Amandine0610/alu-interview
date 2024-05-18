@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+Module for calculating minimum operations to achieve a given number of characters.
+"""
 def minOperations(n):
     if n<= 1:
         return 0
