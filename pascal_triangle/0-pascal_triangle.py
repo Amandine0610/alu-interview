@@ -2,6 +2,9 @@
 """this module returns a list of lists of integers representing the Pascal’s triangle of n """
 
 def pascal_triangle(n):
+    """
+    Generates Pascal's triangle up to the nth row (0-indexed).
+    """
     if n <= 0:
         return []
 
